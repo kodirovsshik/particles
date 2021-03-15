@@ -538,7 +538,6 @@ int main()
 
 
 
-		//processing events
 		ksn::event_t ev;
 		while (win.poll_event(ev))
 		{
@@ -572,7 +571,6 @@ int main()
 			else if (ev.type == ksn::event_type_t::mouse_scroll_vertical)
 			{
 				float d = powf(dzoom, ev.mouse_scroll_data.delta);
-				//view_set(width / 2.f * (1 - zoom), width / 2.f * (1 + zoom), height / 2.f * (1 - zoom), height / 2.f * (1 + zoom));
 				view_zoom_relative(d, ev.mouse_scroll_data.x, ev.mouse_scroll_data.y);
 			}
 		}
