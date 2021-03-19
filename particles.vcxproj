@@ -96,7 +96,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)..\libksn\ksn\lib\$(Platform)\$(Configuration)\;D:\_need\vs_libs\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libksn_window.lib;libksn_opencl_selector.lib;libksn_stuff.lib;libksn_x86_instruction_set.lib;OpenGL32.lib;OpenCL.lib;glew32s.lib;cfgmgr32.lib;runtimeobject.lib;GLU32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libksn_window.lib;libksn_opencl_selector.lib;libksn_stuff.lib;libksn_x86_instruction_set.lib;libksn_math.lib;OpenGL32.lib;OpenCL.lib;glew32s.lib;cfgmgr32.lib;runtimeobject.lib;GLU32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -119,7 +119,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)..\libksn\ksn\lib\$(Platform)\$(Configuration)\;D:\_need\vs_libs\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libksn_window.lib;libksn_opencl_selector.lib;libksn_stuff.lib;libksn_x86_instruction_set.lib;OpenGL32.lib;OpenCL.lib;glew32s.lib;cfgmgr32.lib;runtimeobject.lib;GLU32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libksn_window.lib;libksn_opencl_selector.lib;libksn_stuff.lib;libksn_x86_instruction_set.lib;libksn_math.lib;OpenGL32.lib;OpenCL.lib;glew32s.lib;cfgmgr32.lib;runtimeobject.lib;GLU32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -136,7 +136,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)..\libksn\ksn\lib\$(Platform)\$(Configuration)\;D:\_need\vs_libs\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libksn_window.lib;libksn_opencl_selector.lib;libksn_stuff.lib;libksn_x86_instruction_set.lib;OpenGL32.lib;OpenCL.lib;glew32s.lib;cfgmgr32.lib;runtimeobject.lib;GLU32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libksn_window.lib;libksn_opencl_selector.lib;libksn_stuff.lib;libksn_x86_instruction_set.lib;libksn_math.lib;OpenGL32.lib;OpenCL.lib;glew32s.lib;cfgmgr32.lib;runtimeobject.lib;GLU32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -160,7 +160,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)..\libksn\ksn\lib\$(Platform)\$(Configuration)\;D:\_need\vs_libs\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libksn_window.lib;libksn_opencl_selector.lib;libksn_stuff.lib;libksn_x86_instruction_set.lib;OpenGL32.lib;OpenCL.lib;glew32s.lib;cfgmgr32.lib;runtimeobject.lib;GLU32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libksn_window.lib;libksn_opencl_selector.lib;libksn_stuff.lib;libksn_x86_instruction_set.lib;libksn_math.lib;OpenGL32.lib;OpenCL.lib;glew32s.lib;cfgmgr32.lib;runtimeobject.lib;GLU32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
